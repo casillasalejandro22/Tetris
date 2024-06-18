@@ -15,3 +15,14 @@ SCORE_HEIGHT_FRACTION = 1 - PREVIEW_HEIGHT_FRACTION
 PADDING = 20
 WINDOW_WIDTH = GAME_WIDTH + SIDEBAR_WIDTH + PADDING * 3 # padding to the left of game, between game and sidebar, and to the right of sidebar
 WINDOW_HEIGHT = GAME_HEIGHT + PADDING * 2
+
+# Colors
+YELLOW = '#f1e60d'
+RED = '#e51b20'
+BLUE = '#204b9b'
+GREEN = '#65b32e'
+PURPLE = '#7b217f'
+CYAN = '#6cc6d9'
+ORANGE = '#f07e13'
+GRAY = '#1C1C1C'
+LINE_COLOR = '#FFFFFF'

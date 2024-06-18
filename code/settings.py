@@ -26,3 +26,20 @@ CYAN = '#6cc6d9'
 ORANGE = '#f07e13'
 GRAY = '#1C1C1C'
 LINE_COLOR = '#FFFFFF'
+
+# shapes
+TETROMINOS = {
+	'T': {'shape': [(0,0), (-1,0), (1,0), (0,-1)], 'color': PURPLE},
+	'O': {'shape': [(0,0), (0,-1), (1,0), (1,-1)], 'color': YELLOW},
+	'J': {'shape': [(0,0), (0,-1), (0,1), (-1,1)], 'color': BLUE},
+	'L': {'shape': [(0,0), (0,-1), (0,1), (1,1)], 'color': ORANGE},
+	'I': {'shape': [(0,0), (0,-1), (0,-2), (0,1)], 'color': CYAN},
+	'S': {'shape': [(0,0), (-1,0), (0,-1), (1,-1)], 'color': GREEN},
+	'Z': {'shape': [(0,0), (1,0), (0,-1), (-1,-1)], 'color': RED}
+}
+
+# game behaviour 
+UPDATE_START_SPEED = 200
+MOVE_WAIT_TIME = 200
+ROTATE_WAIT_TIME = 200
+BLOCK_OFFSET = pygame.Vector2(COLUMNS // 2, 2)
